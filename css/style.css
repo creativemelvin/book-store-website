@@ -86,7 +86,7 @@ body {
 
 header {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .8)), url(../img/header-bg.jpeg) fixed center no-repeat /cover;
+    background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .8)), url(../img/header-bg2.jpg) fixed center no-repeat /cover;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
@@ -364,6 +364,108 @@ header {
     box-shadow: none;
 }
 /* end of contact */
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+ 
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .banner-heading:first-letter {
+        font-size: 4rem; 
+        margin-right: 10px;       
+    }
+
+    .display-1 img {
+        width: 60px;
+    }
+
+    .display-1 {
+        font-size: 2rem;
+    }
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+
+/* 
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+*/
+ 
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+    .banner-heading:first-letter {
+        font-size: 6rem; 
+        margin-right: 13px;       
+    }
+
+    .display-1 img {
+        width: 90px;
+    }
+
+    .display-1 {
+        font-size: 3rem;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) { 
+    .banner-heading:first-letter {
+        font-size: 8rem; 
+        margin-right: 16px;       
+    }
+
+    .display-1 img {
+        width: 120px;
+    }
+
+    .display-1 {
+        font-size: 4rem;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+     .banner-heading:first-letter {
+        font-size: 10rem; 
+        margin-right: 20;       
+    }
+
+    .display-1 img {
+        width: 250px;
+    }
+
+    .display-1 {
+        font-size: 6rem;
+    }
+}
+
+
 
 
 
